@@ -6,3 +6,8 @@
 h1{
  font-family: 'francisco';
 }
+.logo{
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
