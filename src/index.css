@@ -9,17 +9,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   
-  font-synthesis: none;
+  /* font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; */
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1024px){
     :root{
-      background-size: 300%;
+      background-size: 280%;
       
     }
 }
