@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'francisco';
+  src: url('./fonts/francisco/FranciscoDemo.ttf');
+}
+
+h1{
+ font-family: 'francisco';
+}

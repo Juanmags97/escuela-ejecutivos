@@ -8,9 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <header>
-          
-        </header>
+        <h1> Aprender es evolucionar</h1>
       </div>
     
     </>
