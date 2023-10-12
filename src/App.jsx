@@ -23,7 +23,7 @@ function App() {
       </form>
 
       <div>
-        <span className="frase"> Aprender es evolucionar</span>
+        <span className="frase"> Aprender es evolucionars</span>
       
       </div>
 
