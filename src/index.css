@@ -5,21 +5,16 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+}
+body{
   background-image: url('./assets/fondo-principal.avif');
   background-repeat: no-repeat;
-  background-size: cover;
-  
-  /* font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; */
+  background-size: 230vh;
 
 }
 
-@media screen and (max-width: 1024px){
-    :root{
-      background-size: 280%;
-      
+@media  (max-width: 1024px){
+    body{
+      background-size: 210vh;
     }
 }

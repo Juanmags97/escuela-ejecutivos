@@ -3,8 +3,12 @@
   src: url('./fonts/francisco/FranciscoDemo.ttf');
 }
 
-h1{
+.frase{
  font-family: 'francisco';
+ font-size: 45px;
+ display: flex;
+ justify-content: center;
+ margin-top: 30vh;
 }
 .logos{
 display: flex;
@@ -23,6 +27,28 @@ justify-content: center;
 
   
 }
+.formulario{
+  margin-top: 60px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+input{
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: #ffffff6a;
+  padding: 5%;
+  border-color: transparent;
+  /* color: black; */
+}
+.btnLogin{
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: #ffffff6a;
+  padding: 5%;
+  border-color: transparent;
+}
+
 @media screen and (max-width: 1024px){
   .icono{
     display: block;
@@ -34,3 +60,4 @@ justify-content: center;
 
   }
 }
+

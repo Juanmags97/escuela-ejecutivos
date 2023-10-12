@@ -8,14 +8,23 @@ function App() {
 
   return (
     <>
+      <div className="logos">
+        <img className="logo" src={logo} />
+        <img className="icono" src={icono} />
+      </div>
+
+      <form className="formulario" action="" method="get">
+        <input type="text" placeholder="Correo"/>
+        <input type="password" placeholder="Contraseña"/>
+
+        <button type="button" className="btnLogin">Ingresar</button>
+
+      </form>
+
       <div>
-        <h1> Aprender es evolucionar</h1>
-        </div>
-        <div className="logos">
-          <img className="logo" src={logo} />
-          <img  className="icono" src={icono}  />
-        </div>
-      
+        <span className="frase"> Aprender es evolucionar</span>
+      </div>
+
     </>
   );
 }
