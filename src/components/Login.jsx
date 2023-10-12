@@ -1,5 +1,6 @@
 import React from "react";
 import icono from "../assets/logo-hover.png";
+import {Link} from 'react-router-dom'
 
 
 
@@ -14,9 +15,10 @@ export const Login = () => {
             <input type="text" placeholder="Correo" />
             <input type="password" placeholder="Contraseña" />
 
-        <button type="button" className="btnLogin">
+        {/* <button type="button" className="btnLogin">
             Ingresar
-        </button>
+        </button> */}
+        <Link className="btnLogin" to="/.">Ingresar</Link>
         </form>
 
         <div>
