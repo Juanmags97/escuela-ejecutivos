@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import logo from "./assets/logo-01.png";
 import icono from "./assets/logo-hover.png"
-import usuario from "./assets/usuario.png"
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="logos">
-        <img className="logo" src={logo} />
+      
         <img className="icono" src={icono} />
       </div>
 
@@ -24,6 +24,7 @@ function App() {
 
       <div>
         <span className="frase"> Aprender es evolucionar</span>
+      
       </div>
 
     </>

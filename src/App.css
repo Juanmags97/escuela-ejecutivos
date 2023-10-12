@@ -23,7 +23,7 @@ justify-content: center;
 }
 .icono{
   width: 10vh;
-  display: none;
+  display: block;
 
   
 }
@@ -58,6 +58,11 @@ input{
   cursor: pointer;
   border:1px solid;
 
+  &:hover{
+    background-color: white;
+    color : black
+  }
+
 }
 .iconoLogin{
   height: 25px;
@@ -65,14 +70,6 @@ input{
 }
 
 @media screen and (max-width: 1024px){
-  .icono{
-    display: block;
 
-
-  }
-  .logo{
-    display: none;
-
-  }
 }
 
