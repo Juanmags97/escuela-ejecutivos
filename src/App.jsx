@@ -14,7 +14,7 @@ function App() {
       </div>
 
       <form className="formulario" action="" method="get">
-        <input type="text" placeholder="Correo"/>
+        <input type="text" placeholder="Correo"></input>
         <input type="password" placeholder="Contraseña"/>
 
         <button type="button" className="btnLogin">Ingresar</button>
