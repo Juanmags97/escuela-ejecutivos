@@ -41,6 +41,7 @@ input{
   background-color: #ffffff6a;
   padding: 5%;
   border-color: transparent;
+
  
 }
 ::placeholder{
@@ -49,11 +50,18 @@ input{
 .btnLogin{
   margin-top: 30px;
   border-radius: 20px;
-  background-color: #ffffff6a;
+  border:thick;
+  background-color: transparent;
   padding: 5%;
+
   border-color: transparent;
   cursor: pointer;
+  border:1px solid;
 
+}
+.iconoLogin{
+  height: 25px;
+  position: absolute;
 }
 
 @media screen and (max-width: 1024px){
