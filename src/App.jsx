@@ -1,11 +1,9 @@
 import { useState } from "react";
 import "./App.css";
-import logo from "./assets/logo-01.png";
 import icono from "./assets/logo-hover.png"
 
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
