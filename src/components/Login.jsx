@@ -14,9 +14,8 @@ export const Login = () => {
             <input type="text" placeholder="Correo" />
             <input type="password" placeholder="Contraseña" />
 
-        <button type="button" className="btnLogin">
-            Ingresar
-        </button>
+        
+        <Link className="btnLogin" to="/.">Ingresar</Link>
         </form>
 
         <div>

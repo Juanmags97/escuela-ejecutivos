@@ -24,6 +24,10 @@ justify-content: center;
 .icono{
   width: 10vh;
   display: block;
+}
+.icono-loading{
+  width:17vh;
+  height:20vh;
 
   
 }
