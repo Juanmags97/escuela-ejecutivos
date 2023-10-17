@@ -31,6 +31,17 @@ justify-content: center;
 
   
 }
+.icono-loading-letra{
+  width: 40vh;
+  height: 20vh;
+  display:none;
+}
+.cargando{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .formulario{
   margin-top: 60px;
   display: grid;
