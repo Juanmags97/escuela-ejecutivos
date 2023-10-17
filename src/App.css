@@ -24,24 +24,8 @@ justify-content: center;
 .icono{
   width: 10vh;
   display: block;
-}
-.icono-loading{
-  width:17vh;
-  height:20vh
 
-}
-.icono-loading-letra{
-  width: 40vh;
-  height:20vh;
-  display:none
-
-}
-.cargando{
-  height: 100vh;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 .formulario{
   margin-top: 60px;
@@ -64,9 +48,6 @@ input{
   color:white
 }
 .btnLogin{
-  color: white;
-  text-align: center;
-  text-decoration: none;
   margin-top: 30px;
   border-radius: 20px;
   border:thick;
