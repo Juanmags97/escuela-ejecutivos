@@ -1,7 +1,7 @@
 import React from 'react';
 import Letras from "../assets/escuela-de-ejecutivos.png"
 import icono from "../assets/logo-hover.png"
-// import { motion, useInView } from "framer-motion"
+import { motion, useInView } from "framer-motion
 
 const Loading = () => {
 
