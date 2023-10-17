@@ -9,10 +9,9 @@ const Loading = () => {
 
     return (
         <div className='cargando'>
-            {/* <h1>Hola mundo infeliz</h1> */}
+            {/* asdasdasdasdasd<h1>Hola mundo infeliz</h1> */}
             <img className='icono-loading' src={icono} alt="" />
             <img className='icono-loading-letra' src={Letras} alt="" />
-
             
         </div>
     );
