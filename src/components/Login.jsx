@@ -17,7 +17,7 @@ export const Login = () => {
 
         {/* <button type="button" className="btnLogin">
             Ingresar
-        </button> */}
+        </button> jjj*/}
         <Link className="btnLogin" to="/.">Ingresar</Link>
         </form>
 
