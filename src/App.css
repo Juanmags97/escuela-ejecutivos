@@ -2,7 +2,10 @@
   font-family: 'francisco';
   src: url('./fonts/francisco/FranciscoDemo.ttf');
 }
-
+body{
+  padding: 0;
+  margin: 0;
+}
 .frase{
  font-family: 'francisco';
  font-size: 45px;

@@ -1,14 +1,14 @@
 import React from "react";
 import icono from "../assets/logo-hover.png";
-import {Link} from "react-router-dom"
-import "../lobby.css"
+import {Link} from "react-router-dom";
+import "../lobby.css";
 
 
 
 
 export const Login = () => {
     return (
-        <div>
+        <div className="login">
             <div className="logos">
                 <img className="icono" src={icono} />
             </div>
@@ -22,6 +22,7 @@ export const Login = () => {
             <div>
                 <span className="frase"> Aprender es evolucionar</span>
             </div>
+        
         </div>
     );
 };

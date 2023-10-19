@@ -38,8 +38,7 @@ const Loading = () => {
 
 
    return (
-      <div className='cargando'>
-         {/* asdasdasdasdasd<h1>Hola mundo infeliz</h1> */}
+      <div className='cargando login'>
 
          <img className='icono-loading' src={icono} alt="" />
 

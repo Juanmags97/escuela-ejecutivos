@@ -3,8 +3,18 @@ import "../escritorio.css"
 
 const EscritorioAlumno = () => {
     return (
-        <div>
-            asdasd
+        <div className='escritorio'>
+            <ul className='nav-lateral'>
+              <li>asd</li>
+              <li>asd</li>
+              <li>asd</li>
+              <li>asd</li>
+              <li>asd</li>
+              <li>asd</li>
+              <li>asd</li>
+              <li>asd</li>
+            
+            </ul>
         </div>
     );
 }

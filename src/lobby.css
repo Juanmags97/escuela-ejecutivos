@@ -1,8 +1,8 @@
-body{
+.login{
     background-image: url('./assets/fondo-principal.avif');
     background-repeat: no-repeat;
     background-size: 230vh;
-  
+    height: 100vh;  
   }
   
   @media  (max-width: 1024px){
