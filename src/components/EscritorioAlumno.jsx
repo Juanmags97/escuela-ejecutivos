@@ -2,21 +2,11 @@ import React from 'react';
 import "../escritorio.css"
 
 const EscritorioAlumno = () => {
-    return (
-        <div className='escritorio'>
-            <ul className='nav-lateral'>
-              <li>asd</li>
-              <li>asd</li>
-              <li>asd</li>
-              <li>asd</li>
-              <li>asd</li>
-              <li>asd</li>
-              <li>asd</li>
-              <li>asd</li>
-            
-            </ul>
-        </div>
-    );
+  return (
+    <div className='escritorio'>
+      <h1>hola perras</h1>
+    </div>
+  );
 }
 
 export default EscritorioAlumno;

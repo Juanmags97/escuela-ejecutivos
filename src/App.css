@@ -3,8 +3,9 @@
   src: url('./fonts/francisco/FranciscoDemo.ttf');
 }
 body{
-  padding: 0;
-  margin: 0;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
 }
 .frase{
  font-family: 'francisco';

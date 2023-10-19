@@ -1,12 +1,14 @@
 .escritorio{
-    background-color: #eaeaea;
-    padding: 0px;
-    margin-top: 0px;
+    background-color:red;
     height: 100vh;
+    
+}
+h1{
+    margin: 0%;
 }
 
 .nav-lateral{
     background-color: grey;
     width: 15vh;
-    height: 100vh;
+    height: 90vh;
 }

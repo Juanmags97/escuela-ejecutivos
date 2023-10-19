@@ -22,7 +22,6 @@ export const Login = () => {
             <div>
                 <span className="frase"> Aprender es evolucionar</span>
             </div>
-        
         </div>
     );
 };
