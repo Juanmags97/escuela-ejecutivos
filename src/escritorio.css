@@ -1,14 +1,14 @@
-.escritorio{
-    background-color:red;
+.escritorio {
+    background-color: red;
     height: 100vh;
-    
-}
-h1{
-    margin: 0%;
+
 }
 
-.nav-lateral{
-    background-color: grey;
-    width: 15vh;
-    height: 90vh;
+nav {
+    width: 50vh;
+    height: 100vh;
+}
+
+.navbar{
+    display:block;
 }

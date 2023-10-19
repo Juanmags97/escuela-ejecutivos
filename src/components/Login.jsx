@@ -20,7 +20,7 @@ export const Login = () => {
             </form>
 
             <div>
-                <span className="frase"> Aprender es evolucionar</span>
+                <span className="frase text-light "> Aprender es evolucionar</span>
             </div>
         </div>
     );
