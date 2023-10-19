@@ -2,6 +2,7 @@ import { React, useEffect, useRef } from 'react';
 import Letras from "../assets/escuela-de-ejecutivos.png"
 import icono from "../assets/logo-hover.png"
 import { useInView } from "framer-motion"
+import "../lobby.css"
 
 const Loading = () => {
    function IzDer({ children }) {

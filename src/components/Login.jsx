@@ -1,6 +1,8 @@
 import React from "react";
 import icono from "../assets/logo-hover.png";
 import {Link} from "react-router-dom"
+import "../lobby.css"
+
 
 
 
