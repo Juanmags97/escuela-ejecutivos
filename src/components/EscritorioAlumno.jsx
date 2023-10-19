@@ -1,9 +1,20 @@
 import React from 'react'
-
+import '../escritorio.css'
 const EscritorioAlumno = () => {
   return (
-    <div>
-        <h1>Acá va el escritorio del alumno carajo</h1>
+    <div className='cuerpo'>
+        <div className='nav-lateral'>
+              <ul>
+                <li><img src="" alt="" srcset="" /></li>
+                <li>asdasd</li>
+                <li>asd</li>
+                <li>asdasd</li>
+                <li>asdasdasd</li>
+                <li>asd</li>
+                <li>sdsdsd</li>
+                <li>asdasd</li>
+              </ul>
+        </div>
     </div>
   )
 }

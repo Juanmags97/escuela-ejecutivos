@@ -1,0 +1,10 @@
+body{
+padding: 0%;
+margin: 0%;
+}
+
+.nav-lateral{
+    background-color: red;
+    width: 40vh;
+    height: 100vh;
+}

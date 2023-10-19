@@ -33,8 +33,6 @@ justify-content: center;
 .icono-loading-letra{
   width: 40vh;
   height: 20vh;
-  /* display:none; */
-  /* transform: translate(-300px); */
 }
 .cargando{
   height: 100vh;
