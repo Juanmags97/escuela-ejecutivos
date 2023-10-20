@@ -1,14 +1,26 @@
 .escritorio {
-    background-color: red;
-    height: 100vh;
+    background-color: #EAE9E9;
 
 }
 
-nav {
-    width: 50vh;
+/* nav {
+    padding: 0px;
+    margin: 0px 0px 0px -12px;
+    width: 100%;
     height: 100vh;
 }
 
 .navbar{
     display:block;
+} */
+.logo-rojo{
+    width: 10vh;
+}
+.usuario{
+    cursor: pointer;
+    width: 30px;
+    height:30px;
+}
+.bg-d9{
+    background-color: #d9d9d9;
 }
