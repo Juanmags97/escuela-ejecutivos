@@ -3,6 +3,9 @@
     color: grey;
 
 }
+.cc{
+    position: absolute;
+}
 .logo-rojo{
     width: 10vh;
 }
@@ -12,5 +15,22 @@
     height:25px;
 }
 .bg-d9{
-    background-color: #d9d9d9;
+    background-color: #979ca5;
+}
+span{
+    color: #eaeaea;
+
+    &:hover{
+        color: #a5280c;
+    }
+}
+.cuadro{
+    border-radius: 100%;
+    border: solid 2px;
+    border-color: grey;
+    width: 28vh;
+}
+li{
+    list-style: none;
+    margin-inline-start: 20px;
 }
