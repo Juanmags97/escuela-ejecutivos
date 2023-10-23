@@ -3,34 +3,56 @@
     color: grey;
 
 }
-.cc{
+
+.cc {
     position: absolute;
 }
-.logo-rojo{
+
+.logo-rojo {
     width: 10vh;
 }
-.usuario{
+
+.usuario {
     cursor: pointer;
     width: 25px;
-    height:25px;
+    height: 25px;
 }
-.bg-d9{
+
+.bg-d9 {
     background-color: #979ca5;
 }
-span{
+
+span {
     color: #eaeaea;
 
-    &:hover{
+    &:hover {
         color: #a5280c;
     }
 }
-.cuadro{
-    border-radius: 100%;
+
+.cuadro {
+    border-radius: 100px;
     border: solid 2px;
-    border-color: grey;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.30);
+    border-color: #d9d9d9;
     width: 28vh;
 }
-li{
+
+li {
     list-style: none;
     margin-inline-start: 20px;
+}
+
+.select {
+    color: red;
+    text-decoration: underline;
+}
+
+.unselect {
+    &:hover {
+        color: red;
+        cursor: pointer;
+    }
 }
