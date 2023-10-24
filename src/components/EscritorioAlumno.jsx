@@ -29,10 +29,33 @@ const EscritorioAlumno = () => {
         </div>
       </div>
       {/* ------------------------prueba carrousel con card-------------- */}
-      <div className="row d-flex justify-content-end">
-          <div className="col-5">
-            <Cards></Cards>
+      <div className="row d-flex justify-content-center">
+        <div className="col-2"></div>
+          <div className="col-3">
+            <Cards className="mt-5"></Cards>
+          
           </div>
+          <div className="col-3">
+            <Cards className="mt-5"></Cards>
+          
+          </div>
+          <div className="col-3">
+            <Cards className="mt-5"></Cards>
+          
+          </div>
+          <div className="col-3">
+            <Cards className="mt-5"></Cards>
+          
+          </div>
+          <div className="col-3">
+            <Cards className="mt-5"></Cards>
+          
+          </div>
+          <div className="col-3">
+            <Cards className="mt-5"></Cards>
+          
+          </div>
+          
       </div>
 
       {/* <div className="row d-flex justify-content-end">
