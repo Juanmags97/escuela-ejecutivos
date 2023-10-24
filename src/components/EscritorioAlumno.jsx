@@ -1,7 +1,7 @@
 import React from 'react';
 import "../escritorio.css"
 import Nav from './Nav'
-// import Curso1 from '../assets/fondo-montaña-agua.avif'
+import Cards from './Card'
 import Curso2 from '../assets/fondo-montaña-desierto.avif'
 
 
@@ -29,6 +29,12 @@ const EscritorioAlumno = () => {
         </div>
       </div>
       {/* ------------------------prueba carrousel con card-------------- */}
+      <div className="row d-flex justify-content-end">
+          <div className="col-5">
+            <Cards></Cards>
+          </div>
+      </div>
+
       {/* <div className="row d-flex justify-content-end">
         <div className="col-10 ">
           <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
@@ -134,8 +140,8 @@ const EscritorioAlumno = () => {
           </div>
         </div>
       </div> */}
-      
-      <Cards/>
+
+      {/* <Cards /> */}
       {/* fin   */}
     </div>
   );
