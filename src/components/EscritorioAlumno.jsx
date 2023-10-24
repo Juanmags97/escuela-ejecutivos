@@ -29,7 +29,7 @@ const EscritorioAlumno = () => {
         </div>
       </div>
       {/* ------------------------prueba carrousel con card-------------- */}
-      <div className="row d-flex justify-content-end">
+      {/* <div className="row d-flex justify-content-end">
         <div className="col-10 ">
           <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
             <div class="carousel-inner">
@@ -133,8 +133,9 @@ const EscritorioAlumno = () => {
             </div>
           </div>
         </div>
-      </div>
-
+      </div> */}
+      
+      <Cards/>
       {/* fin   */}
     </div>
   );
