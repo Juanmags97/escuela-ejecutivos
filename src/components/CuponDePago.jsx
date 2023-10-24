@@ -1,9 +1,10 @@
 import React from 'react';
+import Nav from './Nav'
 
 const CuponDePago = () => {
     return (
         <div>
-            Cupon de pago
+            <Nav></Nav>
         </div>
     );
 }
