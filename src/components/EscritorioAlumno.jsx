@@ -10,7 +10,7 @@ import Styled from 'styled-components'
 const EscritorioAlumno = () => {
 
   return (
-    <div className="container-fluid overflow-hidden">
+    <div className="container-fluid ">
 
       <Nav />
       <NavCel className="visual"/>
