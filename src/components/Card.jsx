@@ -3,15 +3,15 @@ import fondo1 from "../assets/fondo-montaña-desierto.avif"
 import '../cards.css'
 import "../escritorio.css"
 
-const Card = () => {
+const Card = ({card}) => {
     return (
         <div>
-            <div className="card">
-                <div className="card-body">
-                    <img src={fondo1} className='logo' alt="" />
-                    <h4 id="name"  className='Card-title'>curso</h4>
-                    <p className='card-text text-center text-secondary'> </p>
-                    <a href="#!" className='btn-btn-outline-secondary btn btn-danger text-center'>
+            <div className="">
+                <div className="card-body d-grid">
+                    {/* <img src={fondo1} className='logo' alt="" /> */}
+                    <h4 id="name"  className='text-center Card-title'>{card.name}</h4>
+                    <p className='card-text text-center text-light'>Estado: {card.estado} </p>
+                    <a href="#!" className=' btn btn-outline-light text-center my-2 mx-5'>
                         Entrar al Curso
                     </a>
                 </div>

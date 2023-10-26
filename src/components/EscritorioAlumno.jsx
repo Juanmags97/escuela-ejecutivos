@@ -2,6 +2,7 @@ import React from 'react';
 import "../escritorio.css"
 import Nav from './Nav'
 import Cards from './Card'
+import Styled from 'styled-components'
 
 
 
@@ -32,136 +33,23 @@ const EscritorioAlumno = () => {
       <div className="row d-flex justify-content-center">
         <div className="col-2"></div>
           <div className="col-3">
-            <Cards className="mt-5">
-              {/* card={{nombre:'Curso 1'}} */}
+            <Cards className="mt-5" card={{name:"curso 1", estado:"en curso"}}>
             </Cards>
           
           </div>
           <div className="col-3">
-            <Cards className="mt-5">
-
-            {/* card={{nombre:'Curso 2'}} */}
-
+            <Cards className="mt-5" card={{name:"curso 2", estado:"en curso"}}>
             </Cards>
           
           </div>
           <div className="col-3">
-            <Cards className="mt-5">
-
-            {/* card={{nombre:'Curso 3'}} */}
-
-            </Cards>
+            <Cards className="mt-5" card={{name:"curso 3", estado:"terminado"}}></Cards>
           
           </div>
           
       </div>
 
-      {/* <div className="row d-flex justify-content-end">
-        <div className="col-10 ">
-          <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="card-group">
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="carousel-item">
-                <div class="card-group">
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="carousel-item">
-                <div class="card-group">
-
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                  <div class="card ms-2 text-bg-dark">
-                    <img src={Curso2} class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
+     
       {/* <Cards /> */}
       {/* fin   */}
     </div>

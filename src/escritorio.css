@@ -6,6 +6,7 @@
 
 .cc {
     position: absolute;
+    display: block;
 }
 
 .logo-rojo {
@@ -28,6 +29,9 @@ span {
     &:hover {
         color: #a5280c;
     }
+}
+.visual{
+    display: none;
 }
 
 .show {
@@ -56,4 +60,18 @@ li {
         color: red;
         cursor: pointer;
     }
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .visual{
+        display: block;
+        
+    }
+    .cc{
+        display: none;
+    
+    }
+    
 }
