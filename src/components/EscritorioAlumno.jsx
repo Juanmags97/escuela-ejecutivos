@@ -2,7 +2,7 @@ import React from 'react';
 import "../escritorio.css"
 import Nav from './Nav'
 import Cards from './Card'
-import Curso2 from '../assets/fondo-montaña-desierto.avif'
+
 
 
 const EscritorioAlumno = () => {
@@ -32,27 +32,25 @@ const EscritorioAlumno = () => {
       <div className="row d-flex justify-content-center">
         <div className="col-2"></div>
           <div className="col-3">
-            <Cards className="mt-5"></Cards>
+            <Cards className="mt-5">
+              {/* card={{nombre:'Curso 1'}} */}
+            </Cards>
           
           </div>
           <div className="col-3">
-            <Cards className="mt-5"></Cards>
+            <Cards className="mt-5">
+
+            {/* card={{nombre:'Curso 2'}} */}
+
+            </Cards>
           
           </div>
           <div className="col-3">
-            <Cards className="mt-5"></Cards>
-          
-          </div>
-          <div className="col-3">
-            <Cards className="mt-5"></Cards>
-          
-          </div>
-          <div className="col-3">
-            <Cards className="mt-5"></Cards>
-          
-          </div>
-          <div className="col-3">
-            <Cards className="mt-5"></Cards>
+            <Cards className="mt-5">
+
+            {/* card={{nombre:'Curso 3'}} */}
+
+            </Cards>
           
           </div>
           
