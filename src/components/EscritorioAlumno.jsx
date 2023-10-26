@@ -1,6 +1,7 @@
 import React from 'react';
 import "../escritorio.css"
 import Nav from './Nav'
+import NavCel from './NavCel';
 import Cards from './Card'
 import Styled from 'styled-components'
 
@@ -12,7 +13,7 @@ const EscritorioAlumno = () => {
     <div className="container-fluid overflow-hidden">
 
       <Nav />
-
+      <NavCel className="visual"/>
       {/* ----------------------- fin nav----------------------------- */}
       <div className="row">
         <div className="col-12 justify-content-end m-4 d-flex">
