@@ -2,7 +2,7 @@ import React from 'react';
 import "../escritorio.css"
 import Nav from './Nav'
 import NavCel from './NavCel';
-import Cards from './Cards'
+import Cards from './Card'
 import Styled from 'styled-components'
 
 
