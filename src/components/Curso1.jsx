@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Pdf from "./Pdf"
 const Curso1 = () => {
     return (
         <div className="container-fluid overflow-hidden">
@@ -7,11 +7,11 @@ const Curso1 = () => {
             <div className="modulo1">
                 <h2>modulo 1</h2>
 
-
+            <Pdf/>
             </div>
             <div className="modulo2">
                 <h2>Modulo 2</h2>
-                
+                <Pdf/>
             </div>
             <div className="modulo3">
                 <h2>Modulo 3</h2>
