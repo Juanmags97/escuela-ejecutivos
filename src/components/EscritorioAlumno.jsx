@@ -34,7 +34,7 @@ const EscritorioAlumno = () => {
       <div className="row d-flex justify-content-center">
         <div className="col-lg-2"></div>
           <div className="col-12 col-md-3 mt-5 mt-lg-0">
-            <Cards className="mt-5" card={{name:"curso 1", estado:"en curso"}}>
+            <Cards className="mt-5" card={{name:"curso 1", estado:"en curso ",link:"/Curso1"}}>
             </Cards>
           
           </div>
