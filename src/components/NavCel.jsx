@@ -1,20 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
+import usuario from '../assets/usuario.png'
+
 
 const NavCel = () => {
     return (
         <NavContainer className='visual' role="navigation">
             <div id="menuToggle" >
-                <input type="checkbox"  />
+                <input type="checkbox" />
                 <span></span>
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Info</li></a>
-                    <a href="#"><li>Contact</li></a>
-                    <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                    <a href="#/escritorio-alumno"><li>Inicio</li></a>
+                    <a href="#"><li>Mis Cursos</li></a>
+                    <a href="#"><li>Certificados</li></a>
+                    <a href="#"><li>Cupón de pago</li></a>
+                    <a href="#/Ayuda" target="_blank"><li>Ayuda</li></a>
+                    <li className='mt-5 pt-5 '><img src={usuario} alt="" srcset="" /></li>
                 </ul>
             </div>
         </NavContainer>
@@ -37,7 +40,7 @@ body
 
 #menuToggle
 {
-  background-color:black;
+
   display: block;
   position: relative;
   top: 50px;
@@ -69,8 +72,8 @@ body
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
+  top: -35px;
+  left: -3px;
   
   cursor: pointer;
   
@@ -131,8 +134,8 @@ body
 #menu
 {
   position: absolute;
-  width: 500px;
-  height: 100vh;
+  width: 100%;
+  height: auto;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;

@@ -6,7 +6,7 @@ import '../escritorio.css'
 
 const Ayuda = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid overflow-hidden">
       <Nav></Nav>
       <NavCel className="visual"/>
 
