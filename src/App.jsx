@@ -7,6 +7,7 @@ import Certificados from "./components/Certificados";
 import CuponDePago from "./components/CuponDePago";
 import MisCursos from"./components/MisCursos";
 import Ayuda from "./components/Ayuda";
+import Curso1 from "./components/Curso1"
 import "./App.css";
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="/CuponDePago" element={<CuponDePago/>}/>
       <Route path="/MisCursos" element={<MisCursos/>}/>
       <Route path="/Ayuda" element={<Ayuda/>}/>
+      <Route path="/Curso1" element={<Curso1/>}/>
 
 
 
