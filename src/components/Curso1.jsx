@@ -11,6 +11,7 @@ const Curso1 = () => {
             </div>
             <div className="modulo2">
                 <h2>Modulo 2</h2>
+                
             </div>
             <div className="modulo3">
                 <h2>Modulo 3</h2>
