@@ -14,35 +14,35 @@ const Nav = () => {
     const [Certificado, setCertificado] = useState(false)
     const [Ayuda, setAyuda] = useState(false)
 
-    const url = window.location.href;
-    // console.log(url)
+    const url = window.location;
+    console.log(url.hash)
 
     useEffect(() => {
-        if (url == "http://localhost:5173/#/Escritorio-Alumno") {
+        if (url.hash == `#/Escritorio-Alumno`) {
             setIsAvtive(true)
             setAyuda(false)
             setCertificado(false)
             setCuponPago(false)
             setMisCursos(false)
-        } else if (url == "http://localhost:5173/#/CuponDePago") {
+        } else if (url.hash == `#/CuponDePago`){
             setCuponPago(true)
             setAyuda(false)
             setCertificado(false)
             setIsAvtive(false)
             setMisCursos(false)
-        } else if (url == "http://localhost:5173/#/MisCursos") {
+        } else if (url.hash == `#/MisCursos`) {
             setCuponPago(false)
             setAyuda(false)
             setCertificado(false)
             setIsAvtive(false)
             setMisCursos(true)
-        } else if (url == "http://localhost:5173/#/Certificados") {
+        } else if (url.hash == `#/Certificados`) {
             setCuponPago(false)
             setAyuda(false)
             setCertificado(true)
             setIsAvtive(false)
             setMisCursos(false)
-        } else if (url == "http://localhost:5173/#/Ayuda") {
+        } else if (url.hash == `#/Ayuda`) {
             setCuponPago(false)
             setAyuda(true)
             setCertificado(false)
@@ -65,57 +65,34 @@ const Nav = () => {
                     <Link className="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-decoration-none">
                         <img src={LogoRojo} className='logo-rojo' alt="" srcset="" />
                     </Link>
-                    <ul id='btnmenu' className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" >
+                    <ul id='btnmenu' className="nav flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" >
                         <li id='btnmenu' className={IsAvtive ? "show" : ""}>
-                            <Link to={"/Escritorio-Alumno"}><a onClick={() => setIsAvtive(!IsAvtive)(
-                                setAyuda(false),
-                                setCertificado(false),
-                                setCuponPago(false),
-                                setMisCursos(false),
-                            )} >
-                                <span className="ms-1 d-none d-sm-inline">Inicio</span>
+                            <Link to={"/Escritorio-Alumno"} className='nav-link bg-transparent px-0 align-middle'><a >
+                                <span className="ms-1 d-none text-decoration-none d-sm-inline">Inicio</span>
                             </a></Link>
                         </li>
                         <li id='btnmenu' className={MisCursos ? "show" : ""}>
-                            <Link to={"/MisCursos"}>
-                                <a  onClick={() => setMisCursos(!MisCursos)(
-                                    setAyuda(false),
-                                    setCertificado(false),
-                                    setCuponPago(false),
-                                    setIsAvtive(false),
-                                )} className="nav-link px-0 bg-transparent align-middle">
-                                    <span className="ms-1 d-none d-sm-inline">Mis cursos</span> </a>
+                            <Link to={"/MisCursos"} className='nav-link bg-transparent px-0 align-middle'>
+                                <a className="pos px-0 ">
+                                    <span className="ms-1">Mis cursos</span> </a>
                             </Link>
                         </li>
                         <li id='btnmenu' className={CuponPago ? "show" : ""}>
-                            <Link to={"/CuponDePago"} onClick={() => setCuponPago(!CuponPago)(
-                                setAyuda(false),
-                                setCertificado(false),
-                                setIsAvtive(false),
-                                setMisCursos(false),
-                            )} className="nav-link bg-transparent px-0 align-middle">
+                            <Link to={"/CuponDePago"} className="nav-link bg-transparent px-0 align-middle">
                                 <span className="ms-1 d-none d-sm-inline">Cupón de pago</span></Link>
                         </li>
                         <li className={Certificado ? "show" : ""} >
                             <Link to={"/Certificados"} className="nav-link bg-transparent px-0 align-middle ">
                                 <span className="ms-1 d-none d-sm-inline">Certificados</span></Link>
-                            <ul className="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                                <li className="w-100">
-                                    <a href="" className="nav-link px-0"> <span className="d-none d-sm-inline">Item</span> </a>
-                                </li>
-                                <li>
-                                    <a href="" className="nav-link px-0"> <span className="d-none d-sm-inline">Item</span> </a>
-                                </li>
-                            </ul>
                         </li>
                         <li className={Ayuda ? "show" : ""}>
-                            <Link to={"/Ayuda"}  className="nav-link px-0 bg-transparent align-middle">
+                            <Link to={"/Ayuda"}  className="nav-link bg-transparent px-0 align-middle">
                                 <span className="ms-1 d-none d-sm-inline">Ayuda</span>
                             </Link>
                         </li>
                     </ul>
                     <hr />
-                    <div className="dropdown pb-4">
+                    <div className=" pb-4">
                         <a href="" className="d-flex align-items-center text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src={usuario} className='usuario ' alt="" srcset="" />
 

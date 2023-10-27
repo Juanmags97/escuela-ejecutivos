@@ -22,6 +22,9 @@
 .bg-d9 {
     background-color: #979ca5;
 }
+.pos{
+    text-decoration: none;
+}
 
 span {
     color: #eaeaea;
@@ -41,7 +44,7 @@ span {
     -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.30);
     -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.30);
     border-color: #d9d9d9;
-    width: 28vh;
+    width: 100%;
     background-color: transparent;
 }
 
@@ -78,10 +81,4 @@ li {
     
     }
     
-}
-@media screen and (max-width:1500px){
-    .show{
-        width: 100%;
-    }
-
 }

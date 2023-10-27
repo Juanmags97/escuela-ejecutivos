@@ -22,9 +22,9 @@ const EscritorioAlumno = () => {
         <div className="col-6 ">
           <h3 className='ms-4 text-center'>Mis Cursos</h3>
         </div>
-        <div className="col-7">
-          <ul className='d-flex ms-4 justify-content-center '>
-            <li className='select unselect'>Todos mis cursos</li>
+        <div className="col-12 col-lg-7">
+          <ul className='d-flex ms-lg-4 ms-0   justify-content-center '>
+            <li className='select unselect '>Todos mis cursos</li>
             <li className='unselect'>En curso </li>
             <li className='unselect'>Terminados</li>
           </ul>
