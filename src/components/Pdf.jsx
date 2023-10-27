@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "../pdf.css"
 
 export default class Pdf extends Component {
   render() {
