@@ -50,7 +50,31 @@ const EscritorioAlumno = () => {
           
       </div>
 
-     
+      <div className="row">
+        <div className="col-8 mt-5 ms-5">
+          <h3 className='text-center'>Estos Cursos prodrian interesarte </h3>
+        </div>
+      </div>
+
+      <div className="row d-flex justify-content-center">
+        <div className="col-lg-2"></div>
+          <div className="col-12 col-md-3 mt-5 mt-lg-0">
+            <Cards className="mt-5" card={{name:"curso 1", estado:"en curso",link:"/Curso1"}}>
+            </Cards>
+          
+          </div>
+          <div className="col-12 col-md-3 mt-5 mt-lg-0">
+            <Cards className="mt-5" card={{name:"curso 2", estado:"en curso"}}>
+            </Cards>
+          
+          </div>
+          <div className="col-12 col-md-3 mt-5 mt-lg-0">
+            <Cards className="mt-5" card={{name:"curso 3", estado:"terminado"}}></Cards>
+          
+          </div>
+          
+      </div>
+    
       {/* <Cards /> */}
       {/* fin   */}
     </div>
