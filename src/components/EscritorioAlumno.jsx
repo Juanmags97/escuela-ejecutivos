@@ -3,7 +3,7 @@ import "../escritorio.css"
 import Nav from './Nav'
 import NavCel from './NavCel';
 import Cards from './Card'
-import Styled from 'styled-components'
+
 
 
 

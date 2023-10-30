@@ -8,7 +8,7 @@ import "../escritorio.css"
 
 
 const Nav = () => {
-    const [IsAvtive, setIsAvtive] = useState(true)
+    const [Inicio, setInicio] = useState(true)
     const [MisCursos, setMisCursos] = useState(false)
     const [CuponPago, setCuponPago] = useState(false)
     const [Certificado, setCertificado] = useState(false)
@@ -19,7 +19,7 @@ const Nav = () => {
 
     useEffect(() => {
         if (url.hash == `#/Escritorio-Alumno`) {
-            setIsAvtive(true)
+            setInicio(true)
             setAyuda(false)
             setCertificado(false)
             setCuponPago(false)
@@ -28,25 +28,25 @@ const Nav = () => {
             setCuponPago(true)
             setAyuda(false)
             setCertificado(false)
-            setIsAvtive(false)
+            setInicio(false)
             setMisCursos(false)
         } else if (url.hash == `#/MisCursos`) {
             setCuponPago(false)
             setAyuda(false)
             setCertificado(false)
-            setIsAvtive(false)
+            setInicio(false)
             setMisCursos(true)
         } else if (url.hash == `#/Certificados`) {
             setCuponPago(false)
             setAyuda(false)
             setCertificado(true)
-            setIsAvtive(false)
+            setInicio(false)
             setMisCursos(false)
         } else if (url.hash == `#/Ayuda`) {
             setCuponPago(false)
             setAyuda(true)
             setCertificado(false)
-            setIsAvtive(false)
+            setInicio(false)
             setMisCursos(false)
         }
 
@@ -66,26 +66,26 @@ const Nav = () => {
                         <img src={LogoRojo} className='logo-rojo' alt="" srcset="" />
                     </Link>
                     <ul id='btnmenu' className="nav flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" >
-                        <li id='btnmenu' className={IsAvtive ? "show" : ""}>
+                        <li id='btnmenu' className={Inicio ? "muestra" : ""}>
                             <Link to={"/Escritorio-Alumno"} className='nav-link bg-transparent px-0 align-middle'><a >
                                 <span className="ms-1 d-none text-decoration-none d-sm-inline">Inicio</span>
                             </a></Link>
                         </li>
-                        <li id='btnmenu' className={MisCursos ? "show" : ""}>
+                        <li id='btnmenu' className={MisCursos ? "muestra" : ""}>
                             <Link to={"/MisCursos"} className='nav-link bg-transparent px-0 align-middle'>
                                 <a className="pos px-0 ">
                                     <span className="ms-1">Mis cursos</span> </a>
                             </Link>
                         </li>
-                        <li id='btnmenu' className={CuponPago ? "show" : ""}>
+                        <li id='btnmenu' className={CuponPago ? "muestra" : ""}>
                             <Link to={"/CuponDePago"} className="nav-link bg-transparent px-0 align-middle">
                                 <span className="ms-1 d-none d-sm-inline">Cupón de pago</span></Link>
                         </li>
-                        <li className={Certificado ? "show" : ""} >
+                        <li className={Certificado ? "muestra" : ""} >
                             <Link to={"/Certificados"} className="nav-link bg-transparent px-0 align-middle ">
                                 <span className="ms-1 d-none d-sm-inline">Certificados</span></Link>
                         </li>
-                        <li className={Ayuda ? "show" : ""}>
+                        <li className={Ayuda ? "muestra" : ""}>
                             <Link to={"/Ayuda"}  className="nav-link bg-transparent px-0 align-middle">
                                 <span className="ms-1 d-none d-sm-inline">Ayuda</span>
                             </Link>

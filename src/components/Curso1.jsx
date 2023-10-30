@@ -1,5 +1,4 @@
 import React from 'react';
-import Pdf from "./Pdf"
 import Nav from './Nav'
 import NavCel from './NavCel'
 const Curso1 = () => {
@@ -9,23 +8,42 @@ const Curso1 = () => {
             <NavCel></NavCel>
             <div className="row">
                 <div className="col-12 text-center">
-                    <h1>Curso 1</h1>
+                    <h1 className='text-danger'>Curso 1</h1>
 
                 </div>
-                <div className="col-10 d-grid  justify-content-center">
-
-                    <div className="modulo1">
-                        <h2>modulo 1</h2>
-
+                <div className="col-6 d-grid  justify-content-center">
+                    <div class="btn-group dropend mt-4">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Modulo 1
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>Hola</li>
+                            <li>Hola</li>
+                            <li>Hola</li>
+                        </ul>
                     </div>
-                    <div className="modulo2">
-                        <h2>Modulo 2</h2>
+                    <div class="btn-group dropend mt-4">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Modulo 2
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>Hola</li>
+                            <li>Hola</li>
+                            <li>Hola</li>
+                        </ul>
                     </div>
-                    <div className="modulo3">
-                        <h2>Modulo 3</h2>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/njJTZPbHbt4?si=p1J9wyk4SSW2dKz7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="btn-group dropend mt-4">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Modulo 3
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>Hola</li>
+                            <li>Hola</li>
+                            <li>Hola</li>
+                        </ul>
                     </div>
                 </div>
+                
             </div>
 
         </div>
